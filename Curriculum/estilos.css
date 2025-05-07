@@ -1,0 +1,14 @@
+body{
+    
+    text-align: center;
+}
+header p{
+    color: red;
+}
+section{
+    margin-bottom: 25px;
+}
+h2{
+    color: black;
+    border-bottom: 1PX solid #ccc;
+}
