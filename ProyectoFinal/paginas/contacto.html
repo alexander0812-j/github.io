@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <title>Opinion</title>
+</head>
+<body>
+    <nav>
+    <a href="ecotap.html">EcoTap</a>
+     <a href="materiales.html">Materiales</a>
+    <a href="video.html">Video promocional</a>
+</nav>
+    <h1>Opinion</h1>
+<p>El producto no solo ofrece una herramienta eficiente para reducir el desperdicio de
+agua, sino que también fomenta hábitos más responsables y conscientes en los
+usuarios, motivándolos a competir y mejorar su rendimiento a través de recompensas
+y logros. <br> Gracias a su diseño moderno, fácil instalación y conexión con aplicaciones
+móviles, EcoTap se adapta fácilmente a cualquier hogar o entorno, haciendo del ahorro
+de agua algo accesible y tangible para todos.
+<br>
+En resumen, EcoTap es mucho más que un simple grifo inteligente: <br> es un producto que
+fusiona sostenibilidad, tecnología y conciencia ecológica, ayudando a los usuarios a
+cuidar el planeta, ahorrar recursos y contribuir a un futuro más verde, todo desde la
+comodidad de su hogar.</p>
+    <section class="opinion">
+		<form action="#" method="POST">
+			
+			<label for="nombre">Nomb. cliente:</label>
+			<input type="text" name="nombre" required>
+			<br>
+			<label for="correo">Correo:</label>
+			<input type="email" name="correo"  placeholder="nickname@correo.com"  required>
+			<br>
+
+			<label for="telefono">Celular:</label>
+			<input type="tel" name="telefono"  placeholder="000-000-0000" required>
+			<br>
+			
+			
+			<br>
+			<h3>Seleccione la cantiad de grifos</h3>
+			<label>
+				<input type="checkbox" name="intereses" value="kilos">
+				1 grif.
+			</label>
+			<br>
+
+			<label>
+				<input type="checkbox" name="intereses" value="kilos">
+				2 grif.
+			</label>
+			<br> 
+
+			<label>
+				<input type="checkbox" name="intereses" value="kilos">
+				3 o mas grif.
+			</label>
+			<br><br>
+
+				<h3>Extras</h3>
+				<label>
+					<input type="checkbox" name="Extras">
+					Paquete especial
+				</label>
+				<br>
+				<label>
+					<input type="checkbox" name="Extras">
+					Poca envoltura
+				</label> 
+                <label>
+					<input type="checkbox" name="Extras">
+					Repuestos extras
+				</label>
+			<br>
+			<h3>Forma de pago</h3>
+			<select>
+				<option value="tarjeta">Tarjeta</option>
+				<option value="efectivo">Efectivo</option>
+			</select>
+				
+			<br><br>
+
+			<label for="nacimiento">Fecha en que desea recoger el pedido:</label>
+			<input type="date" name="nacimiento"  placeholder="00-00-0000" required>
+			
+		</form>
+	<label for="comentario">Comentario:</label>
+			<textarea name="comentario" rows="5" cols="50" placeholder="Escribe un comentario">
+			</textarea>
+            <button type="submit">Enviar</button>
+    </section>
+</body>
+</html>

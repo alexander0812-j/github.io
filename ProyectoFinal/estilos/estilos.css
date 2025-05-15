@@ -53,12 +53,17 @@ footer{
 	margin-top: 20px;
 }
 
-th{
-	background-color: crimson;
-	color: darkred;
+.img-02{
+ width: 380px;
+ height: 250px;
+ border-radius: 25px;
 }
 
-td{
-	background-color: crimson;
-	color: darkred;
+section.opinion{
+	background-color: rgba(143, 255, 190, 0.822);
+	width: 500px;
+	text-align:center;
+	margin:0 auto;
+	border-radius: 10px;
+	padding:10px;
 }
