@@ -2,27 +2,31 @@ body{
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	margin: 0;
 	padding: 0;
-	background-color: rgb(54, 116, 187);
+	background-color: rgb(52, 39, 167);
 }
 h1{
 	text-align: center;
-	color: rgba(0, 255, 136, 0.836);
-	background-color: aliceblue;
+	background-color: rgb(55, 72, 228);
+	color: rgb(252, 251, 255);
+}
+h2{
+	text-align: center;
+	color: rgb(255, 255, 255);
 }
 nav{
-	background-color: rgba(143, 255, 190, 0.822);
+	background-color: rgb(46, 203, 214);
 	padding: 10px;
 	text-align: center;
 }
 
 nav a{
-color: rgb(138, 49, 165);
+color: rgba(195, 0, 255, 0.479);
 padding: 10px;
 text-decoration: none;
 display: inline-block;
 }
 nav a:hover{
-	color: rgb(102, 42, 104);
+	color: rgb(255, 255, 255);
 }
 
 section.contenedor{
@@ -34,7 +38,7 @@ section.contenedor{
 article{
 	flex: 2;
 	padding: 20px;
-	background-color: crimson;
+	background-color: rgb(233, 29, 131);
 	margin-right: 5px;
 	border-radius: 10px;
 }
@@ -42,12 +46,12 @@ article{
 aside{
 	flex: 1;
 	padding: 10px;
-	background-color: aliceblue;
+	background-color: rgb(255, 255, 255);
 	border-radius: 10px;
 }
 footer{
-	background-color: crimson;
-	color: orangered;
+	background-color: rgb(220, 20, 143);
+	color: rgb(89, 0, 255);
 	text-align: center;
 	padding: 10px;
 	margin-top: 20px;
@@ -60,7 +64,7 @@ footer{
 }
 
 section.opinion{
-	background-color: rgba(143, 255, 190, 0.822);
+	background-color: rgb(45, 174, 184);
 	width: 500px;
 	text-align:center;
 	margin:0 auto;
@@ -79,10 +83,15 @@ th{
 td{
 	background-color:  rgba(143, 255, 190, 0.822);
 }
-.video-01{
-margin: 0 auto;
+p{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-.video05{
-	margin: 0 auto;
+li{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section.video{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
